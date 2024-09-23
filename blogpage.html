@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog</title>
+  <style>
+    /* Add your custom styles here */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .post {
+      margin-bottom: 20px;
+      padding: 20px;
+      border-bottom: 1px solid #ccc;
+    }
+    .post-title {
+      font-weight: bold;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    .post-meta {
+      font-size: 14px;
+      color: #666;
+    }
+    .post-content {
+      margin-bottom: 20px;
+    }
+    .comment {
+      margin-bottom: 20px;
+      padding: 20px;
+      border-bottom: 1px solid #ccc;
+    }
+    .comment-author {
+      font-weight: bold;
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+    .comment-content {
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <!-- **Title Section** -->
+  <header>
+    <h1>Blog</h1>
+  </header>
+
+  <!-- **Post List Section** -->
+  <section class="post-list">
+    <!-- **Post 1** -->
+    <article class="post">
+      <h2 class="post-title">Bài viết 1: Giới thiệu về EcoCycle</h2>
+      <small class="post-meta">Ngày 10/02/2023, Tác giả: Nguyễn Văn A</small>
+      <p class="post-content">EcoCycle là một thùng rác thông minh giúp bạn phân loại và tái chế rác thải một cách hiệu quả.</p>
+      <!-- **Comments Section** -->
+      <section class="comments">
+        <!-- **Comment 1** -->
+        <div class="comment">
+          <small class="comment-author">Nguyễn Văn B</small>
+          <blockquote class="comment-content">Bài viết rất hữu ích, cảm ơn tác giả!</blockquote>
+        </div>
+        <!-- **Comment 2** -->
+        <div class="comment">
+          <small class="comment-author">Nguyễn Văn C</small>
+          <blockquote class="comment-content">Tôi cũng đang sử dụng EcoCycle và thấy rất hiệu quả!</blockquote>
+        </div>
+        <!-- **Add New Comment Form** -->
+        <form>
+          <label for="name">Tên:</label>
+          <input type="text" id="name" name="name"><br><br>
+          <label for="comment">Bình luận:</label>
+          <textarea id="comment" name="comment"></textarea><br><br>
+          <button type="submit">Gửi</button>
+        </form>
+      </section>
+    </article>
+
+    <!-- **Post 2** -->
+    <article class="post">
+      <h2 class="post-title">Bài viết 2: Lợi ích của việc tái chế rác thải</h2>
+      <small class="post-meta">Ngày 15/02/2023, Tác giả: Nguyễn Văn D</small>
+      <p class="post-content">Việc tái chế rác thải giúp giảm thiểu ô nhiễm môi trường và tiết kiệm tài nguyên.</p>
+      <!-- **Comments Section** -->
+      <section class="comments">
+        <!-- **Comment 1** -->
+        <div class="comment">
+          <small class="comment-author">Nguyễn Văn E</small>
+          <blockquote class="comment-content">Bài viết rất hay, tôi sẽ chia sẻ với bạn bè!</blockquote>
+        </div>
+        <!-- **Add New Comment Form** -->
+        <form>
+          <label for="name">Tên:</label>
+          <input type="text" id="name" name="name"><br><br>
+          <label for="comment">Bình luận:</label>
+          <textarea id="comment" name="comment"></textarea><br><br>
+          <button type="submit">Gửi</button>
+        </form>
+      </section>
+    </article>
+  </section>
+</body>
+</html>
